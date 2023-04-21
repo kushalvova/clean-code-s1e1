@@ -13,6 +13,10 @@
   text-align: right;
 }
 
+.main-title {
+  display: none;
+}
+
 .aaa .img {
   width: 100%;
 }
