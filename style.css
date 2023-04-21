@@ -21,7 +21,7 @@
   width: 100%;
 }
 
-.aaa .more_inf {
+.aaa .more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -168,11 +168,11 @@
   display: none;
 }
 
-.list .item.editMode .input[type=text] {
+.list .item.edit-mode .input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.list .item.editMode .label {
+.list .item.edit-mode .label {
   display: none;
 }
