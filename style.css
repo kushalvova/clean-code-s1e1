@@ -33,7 +33,7 @@
 
 }
 
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -45,7 +45,7 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.wrapper {
   display: flex;
 }
 
@@ -60,11 +60,11 @@
 }
 
 .input,
-.btn {
+.button {
   outline: none;
 }
 
-.btn {
+.button {
   background: none;
   border: 0px;
   color: #888;
@@ -74,14 +74,14 @@
   cursor: pointer;
 }
 
-.btn:hover {
+.button:hover {
   color: #3a3a3a;
 }
 
 /* Heading */
 
 .title,
-.adding-element-title[for="new-task"] {
+.appellation[for="new-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -110,7 +110,7 @@
 
 /* New Task */
 
-.adding-element-title[for="new-task"] {
+.appellation[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
@@ -145,13 +145,13 @@
   width: 226px;
 }
 
-.btn.delete .img {
+.button.delete .img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn.delete .img:hover {
+.button.delete .img:hover {
   transform: rotateZ(0);
 }
 
